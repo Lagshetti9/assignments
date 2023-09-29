@@ -1,0 +1,269 @@
+header {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  align-items: center;
+  height: 70px;
+  border: 1px solid rgb(211, 201, 201);
+}
+
+.logo-head {
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 25%;
+}
+.search {
+  border-radius: 35px;
+  position: relative;
+  height: 35px;
+  width: 250px;
+  border: 1px rgb(126, 126, 126);
+  color: rgb(24, 14, 14);
+  background-color: rgb(196, 211, 211);
+text-align: center;
+
+
+}
+.icon {
+  height: 40px;
+  padding: 0px;
+
+  border-radius: 50%;
+}
+.navicon {
+  justify-content: center;
+}
+
+.navicon {
+  font-size: 25px;
+  color: black;
+  padding: 10px;
+  margin-top: 20px;
+  margin-right: 20px;
+
+.topicon {
+    font-size: 25px;
+    color: black;
+    padding: 10px;
+    margin-top: 20px;
+    margin-right: 20px;
+  }
+}
+.setting {
+  margin-right: 20px;
+  color: black;
+  /* font-size: 30px; */
+  color: black;
+  font-size: 25px;
+
+  padding: 10;
+}
+.main-section {
+  margin-top: 45px;
+
+  display: flex;
+  justify-content: space-around;
+  font-size: large;
+}
+.left {
+  height: 100px;
+  width: 26%;
+  text-decoration: none;
+  display: grid;
+  font-size: 16px;
+  background-color: rgb(253, 253, 253);
+  justify-content: left;
+}
+.middle {
+  border: 2px solid rgb(235, 232, 232);
+  width: 60%;
+  text-decoration: none;
+  display:grid ;
+  font-size: 30px;
+  background-color: rgb(230, 230, 230);
+  justify-content: baseline;
+  height: 1060px;
+}
+.right {
+  border: 2px solid rgb(218, 202, 202);
+  /*   height: 400px;
+ */
+  width: 30%;
+  text-decoration: none;
+  display: grid;
+  font-size: 18px;
+  background-color: rgb(241, 241, 241);
+  text-decoration: none;
+  display: flex;
+}
+a {
+  text-decoration: none;
+}
+.lefticon {
+  height: 30px;
+  border: 1px solid rgb(219, 209, 209);
+  border-radius: 50%;
+  padding: 1px;
+  margin: 5px;
+}
+.name {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.story-images {
+  display: flex;
+  height: 100px;
+  width: 30px;
+  display: flex;
+  margin-left: 26px;
+}
+/* .story {
+  height: 120px;
+} */
+.img {
+  border: solid 3px rgb(236, 226, 226);
+  border-radius: 15px;
+  margin: 5px;
+  border: 3px solid rgb(219, 223, 196);
+  height: 148px;
+}
+.create {
+  position: absolute;
+  left: 230px;
+  text-decoration: none;
+
+  font-size: larger;
+}
+.me {
+  height: 30px;
+  border-radius: 50%;
+}
+.set {
+  width: 25%;
+  display: flex;
+  justify-content: flex-end;
+}
+.left-name {
+  text-decoration: none;
+  color: black;
+}
+.story {
+  font-size: 20px;
+  margin: 10px;
+  color: black;
+
+}
+.story-images img{
+  height: 250px;
+  width: 150px;
+  
+}
+.add-pfofile-pic {
+  height: 30px;
+  border-radius: 50%;
+  margin-top: 19px;
+}
+.add-post {
+  display: flex;
+  justify-content: center;
+  border: 1px rgb(235, 235, 235);
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  height: 70px;
+  width: 80%;
+  margin-left: 70px;
+  margin-bottom: 0px;
+  border: 1px solid rgb(213, 228, 227);
+}
+.post-input {
+  border-radius: 2px;
+  height: 30px;
+  width: 350px;
+  border: 1px rgb(126, 148, 128);
+  color: rgb(3, 3, 3);
+  text-align: left;
+  display: flex;
+  margin: 20px;
+  font-size: medium;
+  background-color: rgb(247, 252, 235);
+  
+  border-radius: 4%;
+  border: 1px solid rgb(231, 207, 207);
+  text-align: center;
+}
+.select-post {
+  font-size: 35px;
+  margin-top: 12px;
+}
+.post {
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+  margin: 10px;
+}
+.post-name {
+  font-size: 18px;
+  text-decoration: none;
+  color: black;
+}
+
+/* Right Section  */
+.right {
+  display: grid;
+  justify-content: center;
+  border-radius: ;
+}
+#suggested-image {
+  border-radius: 20px;
+  width: 100%;
+}
+.suggest-image {
+  height: 25px;
+  width: 26px;
+  border-radius: 50%;
+  margin-top: 10px;
+}
+.suggest-name {
+
+}
+#search-icon{
+  
+  font-size: 20px;
+  position: absolute;
+  left: 110px;
+  bottom: 16px;
+  top: px;
+  color: black;
+  
+  
+}
+.profile{
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  border: 2px solid rgb(154, 209, 205);
+}
+#akshay-pic{
+  margin:10px;
+  margin-left: 50px;
+}
+.post-image{
+  padding: 10px;
+  position: relative;
+  margin: 5px;
+  height: 450px;
+  width: 100%;
+ padding: 50px;
+}
+.post-img{
+  background-color: rgb(255, 255, 255);
+
+}
