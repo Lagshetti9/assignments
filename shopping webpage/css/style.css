@@ -38,7 +38,7 @@ header{
     right: 3px; */
 /* } */
 
-.home-container {
+/* .home-container {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
@@ -50,4 +50,118 @@ header{
 }
 img{
     height: 40px;
+} */
+
+.section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+    background-color: rgb(180, 243, 155);
+    box-shadow:10px 5px 15px rgb(8, 8, 8);
+    width: 95%;
+    top: 0%;
+    left: 0%;
+}
+html{
+    overflow-x: hidden;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar li {
+    list-style: none;
+    padding: 0 20px;
+    text-decoration: none;
+}
+.navbar li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+    margin-left: 10px;
+}
+.navbar li a:hover{
+    color: rgb(206, 155, 253);
+}
+.navbar li a.active{
+    color: rgb(23, 94, 160);
+}
+.navbar li a.active::after{
+    content:"";
+    width: 30%;
+    height: 2px;
+    background-color: rgb(249, 250, 173);
+    position: absolute;
+    bottom: -4px;
+    left: 20px; 
+}
+.hero{
+    background-image: url("../images/home1.png");
+    height: 90vh;
+    width: 90%;
+    background-size: cover;
+    background-position: top 25% right 60%;
+    padding: 0 70px ;
+    background-color: rgb(193, 248, 250);
+    border-radius: 5px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    
+   
+    
+}
+
+body{
+    background-color: rgb(245, 222, 239);
+}
+.input{
+    border: 1px solid yellow;
+    width: 100%;
+    border-radius: 10px;
+    height: 25px;
+    margin-right: 50px;
+}
+.electonics{
+    display: flex;
+    margin-top: 60px;
+
+}
+.product-image{
+    height: 300px;
+    
+    margin: 1px;
+    padding: 05px;
+    
+}
+
+
+.fashion{
+    display: flex;
+    justify-items:flex-start;
+    margin-top: 50px;
+    
+}
+.header{
+    
+}
+.item{
+    border: 1px solid rgb(206, 212, 212);
+    
+    border-radius: 3%;
+    box-shadow: 5px 5px 5px 5px rgb(233, 208, 230);
+    padding: 5px;
+}
+
+   
+
+#price{
+    font-size: 28px;
+}
+.cost{
+    color: black;
+    text-decoration: none;
 }
